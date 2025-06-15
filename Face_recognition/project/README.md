@@ -29,21 +29,28 @@ A web-based attendance management system that uses **face recognition** to autom
 ## 🗂️ Project Structure
 
 project/
+
 ├── app.py # Flask application
+
 ├── haarcascade_frontalface_default.xml # Face detection model
+
 ├── templates/
+
 │ └── home.html # Web UI template
+
 ├── static/
+
 │ ├── background.png # UI background image (optional)
+
 │ └── faces/ # Saved face images per user
+
 ├── Attendance/
+
 │ └── Attendance-<date>.csv # Daily attendance logs
 
-yaml
-Copy
-Edit
 
----
+
+
 
 ## 🚀 How to Run the Project
 
